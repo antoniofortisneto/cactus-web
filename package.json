@@ -6,14 +6,32 @@
     "start": "next start"
   },
   "dependencies": {
-    "firebase": "^9.6.1",
-    "next": "latest",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "firebase": "^9.14.0",
+    "@heroicons/react": "*",
+    "next": "^13.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.4",
-    "tailwindcss": "^3.0.0"
-  }
+    "tailwindcss": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "name": "cactus",
+  "description": "This is a test to validate the knowledge of the candidates for the position of fullstack developer at Estudio Cactus",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estudiocactus/visualizer-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/estudiocactus/visualizer-test/issues"
+  },
+  "homepage": "https://github.com/estudiocactus/visualizer-test#readme"
 }
