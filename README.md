@@ -1,52 +1,53 @@
-
 🌵 Cactus Web
+https://img.shields.io/badge/Next.js-14.0.0-black?style=for-the-badge&logo=next.js
+https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript
+https://img.shields.io/badge/Vercel-Live_Site-black?style=for-the-badge&logo=vercel
 
-A small React-based component library built to showcase clean architecture, reusable UI components, and modern front-end development skills.
+A modern web application built with Next.js 14, TypeScript and Tailwind CSS.
 
-🎯 About the Project
+🔗 Live Demo: https://cactus-web.vercel.app/
 
-Cactus Web was designed to demonstrate my ability to structure a scalable component system similar to what real companies use in large applications.
-It highlights my experience with React, styled-components, and theme-based design.
+🚀 Getting Started
+Prerequisites
+Node.js 18.17+
 
-🧰 Tech Stack
+Yarn 1.22+
 
-React
+Installation
+bash
+git clone https://github.com/antoniofortisneto/cactus-web.git
+cd cactus-web
+yarn install
+yarn dev
+Open http://localhost:3000 in your browser.
 
-styled-components
+📜 Scripts
+Command	Description
+yarn dev	Development server
+yarn build	Production build
+yarn start	Production server
+yarn lint	Code analysis
+🛠️ Technologies
+Framework: Next.js 14 (App Router)
 
-Theme Provider architecture
+Language: TypeScript
 
-JavaScript/TypeScript-ready
+Styling: Tailwind CSS
 
-✨ Features
+Deployment: Vercel
 
-Reusable, modular components
+🤝 Contributing
+Fork the project
 
-Global theming
+Create your branch (git checkout -b feature/amazing-feature)
 
-Clean, scalable folder structure
+Commit your changes (git commit -m 'Add amazing feature')
 
-Focus on accessibility and maintainability
+Push to the branch (git push origin feature/amazing-feature)
 
-🚀 Example
-import { ThemeProvider } from '@repay/cactus-theme';
-import { Button } from '@repay/cactus-web';
+Open a Pull Request
 
-<ThemeProvider>
-  <Button variant="primary">Click me</Button>
-</ThemeProvider>
+📄 License
+MIT © Antonio Fortis Neto
 
-📂 Structure
-src/
-  components/
-  theme/
-  styles/
-
-🤝 Purpose
-
-This project is part of my portfolio and demonstrates how I structure front-end systems with a focus on readability, reuse, and long-term maintainability.
-<h3 align="center">project carried out for the Fullstack vacancy at Estudio Cactus</h3>
-
-<h1 align="center">https://cactus-web.vercel.app/<h1>
-
-<p align="center">  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> </p>
+⭐️ Like this project? Leave a star!
