@@ -1,3 +1,50 @@
+
+🌵 Cactus Web
+
+A small React-based component library built to showcase clean architecture, reusable UI components, and modern front-end development skills.
+
+🎯 About the Project
+
+Cactus Web was designed to demonstrate my ability to structure a scalable component system similar to what real companies use in large applications.
+It highlights my experience with React, styled-components, and theme-based design.
+
+🧰 Tech Stack
+
+React
+
+styled-components
+
+Theme Provider architecture
+
+JavaScript/TypeScript-ready
+
+✨ Features
+
+Reusable, modular components
+
+Global theming
+
+Clean, scalable folder structure
+
+Focus on accessibility and maintainability
+
+🚀 Example
+import { ThemeProvider } from '@repay/cactus-theme';
+import { Button } from '@repay/cactus-web';
+
+<ThemeProvider>
+  <Button variant="primary">Click me</Button>
+</ThemeProvider>
+
+📂 Structure
+src/
+  components/
+  theme/
+  styles/
+
+🤝 Purpose
+
+This project is part of my portfolio and demonstrates how I structure front-end systems with a focus on readability, reuse, and long-term maintainability.
 <h3 align="center">project carried out for the Fullstack vacancy at Estudio Cactus</h3>
 
 <h1 align="center">https://cactus-web.vercel.app/<h1>
